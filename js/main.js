@@ -41,8 +41,7 @@ form.addEventListener("submit", function(evt){
         el.style.color = "darkcyan"
         count = ""
         alerrt.classList.add("off")
-    }
-    if(count == ""){
+    }else{
         alerrt.classList.remove("alert-success")
         alerrt.classList.add("alert-danger")
         alerrt.textContent = "Please say something"
