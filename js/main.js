@@ -50,5 +50,6 @@ form.addEventListener("submit", function(evt){
         el.textContent = val
         el.style.color = "darkgreen"
     }
+    count = null    
     input.value = ""
 })
